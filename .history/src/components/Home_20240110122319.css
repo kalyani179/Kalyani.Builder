@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.tablestyle {
+  padding: 0px;
+  text-align: center;
+  border-color: black;
+  margin: 2px;
+  font-family: "Roboto";
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border: 1px solid #000;
+  padding: 5px;
+}
+
+td {
+  padding: 15px;
+  margin: 5px;
+}
+
+.button {
+  background-color: orange;
+  margin-bottom: 6px;
+  border: 0px;
+  border-radius: 10px;
+  color: white;
+}
+
+.button-edit {
+  background-color: #600080;
+  border: 0px;
+  border-radius: 15px;
+  color: white;
+}
+
+.button-yes {
+  background-color: green;
+  border: 0px;
+  border-radius: 15px;
+  color: white;
+  margin-bottom: 6px;
+}
+
+.th1 {
+  padding: 35px;
+}
+
+.table-data-image {
+  width: 150px;
+}
+
+.tablestyle td {
+  overflow: auto;
+}
+
+.table-data-container {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.input-file {
+  display: flex;
+  justify-content: space-between;
+ 
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-family: Roboto;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+/* Style the custom button to resemble a file input */
+.custom-file-input {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3498db;
+  border: 1px solid #2980b9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the label to give it a button appearance */
+.custom-file-label {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #3498db;
+  border: 1px solid #2980b9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Change label color when the file is selected */
+input[type="file"]:focus + .custom-file-label {
+  border-color: #2c3e50;
+}
+
+.upload-button{
+    margin-left: 10px;
+    border: none;
+    background-color: #0068ad;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* start your css from here */
+
+.form{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card1{
+  border:1px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:250px;
+  height:10px;
+  border-radius:7px;
+}
+.card2{
+  border:1px solid orange;
+}
+.card3{
+  border:1px solid blue;
+}
