@@ -5,6 +5,7 @@ import { ColorRing } from "react-loader-spinner";
 import toast, { Toaster } from "react-hot-toast";
 import axios from "axios";
 import { AiFillDelete } from "react-icons/ai";
+
 // import { FaEdit } from "react-icons/fa";
 const Home = () => {
 
@@ -151,8 +152,7 @@ const Home = () => {
 
 
         <form className="form" onSubmit={handleSubmit}>
-         
-         <div>
+          <div>
           <input 
             type="file"
             id="fileInput"
@@ -163,7 +163,9 @@ const Home = () => {
             Choose a File
           </label>
           </div>
-
+          <div>
+            <button className="camera-btn">Camera</button>
+          </div>
 
           <div>
           <button className="upload-button" type="submit">
@@ -194,21 +196,23 @@ const Home = () => {
 
     <div className="bg2">
      <div>
-      <input id="checkbox" type="checkbox"/>
+      <button className="btn-toggle">
+        <div className="circle"></div>
+      </button>
       <label htmlFor="checkbox">show only remainig to be revised</label>
      </div>
 
      <div className="flexDelete">
-      <div>
+      <div className="btn-div">
         <button className="delete">Delete filtered data</button>
       </div>
-      <div>
+      <div className="btn-div">
         <button className="getStarted">Get street address</button>
       </div>
 
       
       <div className="cardBg-white">
-        <p>SEARCH(BY LOCATION,DATE,KEYWORDS,DETAILS...)</p>
+        <p className="search-text">SEARCH(BY LOCATION,DATE,KEYWORDS,DETAILS...)</p>
       <div>
         <input className="searchBar" type="search" placeholder="Search..." id="search"/>
         <label htmlfor="search">

@@ -1,251 +1,310 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
-
 .tablestyle {
-  padding: 0px;
-  text-align: center;
-  border-color: black;
-  margin: 2px;
-  font-family: "Roboto";
+    padding: 0px;
+    text-align: center;
+    border-color: black;
+    margin: 2px;
+    font-family: "Roboto";
 }
 
 table {
-  border-collapse: collapse;
-  width: 100%;
+    border-collapse: collapse;
+    width: 100%;
 }
 
 tr {
-  border: 1px solid #000;
-  padding: 5px;
+    border: 1px solid #000;
+    padding: 5px;
 }
 
 td {
-  padding: 15px;
-  margin: 5px;
+    padding: 15px;
+    margin: 5px;
 }
 
 .button {
-  background-color: orange;
-  margin-bottom: 6px;
-  border: 0px;
-  border-radius: 10px;
-  color: white;
+    background-color: orange;
+    margin-bottom: 6px;
+    border: 0px;
+    border-radius: 10px;
+    color: white;
 }
 
 .button-edit {
-  background-color: #600080;
-  border: 0px;
-  border-radius: 15px;
-  color: white;
+    background-color: #600080;
+    border: 0px;
+    border-radius: 15px;
+    color: white;
 }
 
 .button-yes {
-  background-color: green;
-  border: 0px;
-  border-radius: 15px;
-  color: white;
-  margin-bottom: 6px;
+    background-color: green;
+    border: 0px;
+    border-radius: 15px;
+    color: white;
+    margin-bottom: 6px;
 }
 
 .th1 {
-  padding: 35px;
+    padding: 35px;
 }
 
 .table-data-image {
-  width: 150px;
+    width: 150px;
 }
 
 .tablestyle td {
-  overflow: auto;
+    overflow: auto;
 }
 
 .table-data-container {
-  max-width: 100%;
-  overflow: hidden;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .input-file {
-  display: flex;
-  justify-content: space-between;
- 
-  margin-bottom: 50px;
-  margin-top: 50px;
-  font-family: Roboto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-family: Roboto;
 }
 
 input[type="file"] {
-  display: none;
+    display: none;
 }
+
 
 /* Style the custom button to resemble a file input */
+
 .custom-file-input {
-  display: inline-block;
-  padding: 10px 15px;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff;
-  background-color: #3498db;
-  border: 1px solid #2980b9;
-  border-radius: 5px;
-  cursor: pointer;
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #3498db;
+    border: 1px solid #2980b9;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
 
 /* Style the label to give it a button appearance */
+
 .custom-file-label {
-  display: inline-block;
-  padding:10px;
-  font-size: 16px;
-  font-weight: bold;
-  color: #fff;
-  background-color:orange;
-  width:230px;
-  border-radius: 5px;
-  cursor: pointer;
+    display: inline-block;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: orange;
+    width: 230px;
+    border-radius: 5px;
+    cursor: pointer;
 }
+
 
 /* Change label color when the file is selected */
-input[type="file"]:focus + .custom-file-label {
-  border-color: #2c3e50;
+
+input[type="file"]:focus+.custom-file-label {
+    border-color: #2c3e50;
 }
 
-.upload-button{
-  
+.upload-button {
     border: none;
-    background-color:rgb(102, 102, 216);
+    background-color: rgb(102, 102, 216);
     color: white;
     font-weight: bold;
     padding: 10px;
     cursor: pointer;
-    width:250px;
-    border-radius:5px;
+    width: 250px;
+    border-radius: 5px;
 }
+
 
 /* start your css from here */
 
-.form{
-  display:flex;
-  flex-direction: column;
-  justify-content: space-between;
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.card1{
-  border:2px solid rgb(66, 66, 169);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width:240px;
-  height:130px;
-  border-radius:7px;
-  font-size:12px;
-  color:rgb(93, 93, 148);
-}
-.card2{
-  border:2px solid orange;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width:240px;
-  height:130px;
-  border-radius:7px;
-  font-size:12px;
-  color:orange;
-}
-.card3{
-  border:2px solid rgb(66, 66, 169);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width:240px;
-  height:130px;
-  border-radius:7px;
-  font-size:12px;
-  color:rgb(93, 93, 148);
+.card1 {
+    border: 2px solid rgb(66, 66, 169);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 130px;
+    border-radius: 7px;
+    font-size: 12px;
+    color: rgb(93, 93, 148);
 }
 
-.file-input{
-  width:300px;
+.card2 {
+    border: 2px solid orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 130px;
+    border-radius: 7px;
+    font-size: 12px;
+    color: orange;
 }
 
-.flexDelete{
-  display: flex;
-  justify-content: space-between;
-  margin-top: 33px;
- 
+.card3 {
+    border: 2px solid rgb(66, 66, 169);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 130px;
+    border-radius: 7px;
+    font-size: 12px;
+    color: rgb(93, 93, 148);
 }
 
-.delete{
-  background-color:rgb(66, 66, 169);
-  color:white;
-  font-weight: 600;
-  width:200px;
-  height:34px;
-  border-radius:5px;
-  border:0px;
-}
-.getStarted{
-  background-color:rgb(66, 66, 169);
-  color:white;
-  font-weight: 600;
-  width:200px;
-  height:34px;
-  border-radius:5px;
-  border:0px;
-
+.file-input {
+    width: 300px;
 }
 
-.search{
-  background-color:#600080;
-  width:76px;
-  height:33px;
-  color:#ffffff;
-  text-align:center;
-  border-radius:5px;
-  border:0px;
-}
-.searchBar{
-  width:300px;
-  height:33px;
-  padding-left:12px;
-  margin-right: 12px;
-  border-radius:5px;
- 
-}
-.bg2{
-  font-family: Roboto;
-  margin-top:12px;
-  margin-bottom: 14px;
+.camera-btn {
+    width: 248px;
+    height: 40px;
+    background-color: #452983;
+    border: none;
+    padding: 2px;
+    color: white;
 }
 
-.cardBg-white{
-  box-shadow: 0px 4px 8px 14px whitesmoke;
-  border-radius:5px;
-  padding:7px;
+.flexDelete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
-.bottom-box{
-  border-style: dotted dashed;
-  
-  border-radius:5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items:center;
-  width: 300px;
-  height: 300px;
+.delete {
+    background-color: #452983;
+    color: white;
+    font-weight: 600;
+    width: 270px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.3px;
 }
 
-.bottom-search{
-  display: flex;
-  flex-direction: row;
-  justify-content:flex-end;
+.getStarted {
+    background-color: #452983;
+    color: white;
+    font-weight: 600;
+    width: 270px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px;
+    /* 142.857% */
+    letter-spacing: 0.3px;
 }
 
-.bottom-flex{
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top:55px;
-  
+.search-text {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+
+.search {
+    background-color: #452983;
+    width: 143px;
+    height: 48px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.searchBar {
+    width: 363px;
+    height: 42px;
+    flex-shrink: 0;
+    padding-left: 12px;
+    margin-right: 12px;
+    border-radius: 5px;
+}
+
+.bg2 {
+    font-family: Roboto;
+    margin-top: 12px;
+    margin-bottom: 14px;
+}
+
+.cardBg-white {
+    box-shadow: 0px 4px 8px 14px whitesmoke;
+    border: black;
+    border-radius: 5px;
+    padding: 7px;
+    margin-left: auto;
+    margin-right: 30px;
+    width: 543px;
+    height: 94px;
+    flex-shrink: 0;
+}
+
+.btn-toggle {
+    width: 37px;
+    height: 16px;
+    flex-shrink: 0;
+    border-radius: 20%;
+    margin-right: 10px;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+
+.bottom-box {
+    border-style: dotted dashed;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.bottom-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.bottom-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 55px;
 }
